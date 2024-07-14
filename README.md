@@ -12,8 +12,12 @@ CodeFirst: Entity classlarimizla is yapmamiz.
 
 1)Projeyi olustur
 2)SqlLite kur.
-3) Design Paketi kur.
+3)Design Paketi kur.
 4)Data klasorü ac. Modelleri olustur. (Modelleri Model klasörünün icine de olusturabilirim)
 5)DbContext i olustur.
-6)Program.cs te build edilmeden onceye connection string tanimla.
+6)Program.cs te build edilmeden onceye connection string tanimla. GetConnectionString("database"); //adini database yazmak zorundayiz.
 7)
+
+appsettings.Development.json: Deneme yapilirken connectionstring buraya yazilir.
+appsettings.json: Canliya alinacagi zaman buraya yazilir.
+
