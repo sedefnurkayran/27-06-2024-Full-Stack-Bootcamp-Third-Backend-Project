@@ -21,3 +21,13 @@ CodeFirst: Entity classlarimizla is yapmamiz.
 appsettings.Development.json: Deneme yapilirken connectionstring buraya yazilir.
 appsettings.json: Canliya alinacagi zaman buraya yazilir.
 
+Migration: Veritabani semasini olusturur.
+
+dotnet tool list 
+dotnet tool install --global dotnet-ef --version 7.0.8  //buradaki -g globale kaydet demek.
+
+Migration olusturmak icin; dotnet ef migrations add MigrationName
+
+
+
+
