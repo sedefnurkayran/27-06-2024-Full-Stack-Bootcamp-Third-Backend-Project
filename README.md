@@ -12,12 +12,27 @@ CodeFirst: Entity classlarimizla is yapmamiz.
 
 1)Projeyi olustur
 2)SqlLite kur.
-3)Design Paketi kur.
-4)Data klasorü ac. Modelleri olustur. (Modelleri Model klasörünün icine de olusturabilirim)
-5)DbContext i olustur.
-6)Program.cs te build edilmeden onceye connection string tanimla. GetConnectionString("database"); //adini database yazmak zorundayiz.
-7)
+3)Tool paketi yükle.
+4)Design Paketi kur.
+5)Data klasorü ac. Modelleri olustur. (Modelleri Model klasörünün icine de olusturabilirim)
+6)DbContext i olustur.
+7)Program.cs te build edilmeden onceye connection string tanimla. GetConnectionString("database"); //adini database yazmak zorundayiz.
+)Migration yap.
 
 appsettings.Development.json: Deneme yapilirken connectionstring buraya yazilir.
 appsettings.json: Canliya alinacagi zaman buraya yazilir.
+
+Migration: Veritabani semasini olusturur.
+
+dotnet tool list 
+dotnet tool install --global dotnet-ef --version 7.0.8  //buradaki -g globale kaydet demek.
+
+Migration olusturmak icin; dotnet ef migrations add MigrationName
+
+public DataContext(DbContextOptions<DataContext> options) : base(options) { } 
+Bu kod, DataContext sınıfının bir constructor'ını tanımlar ve Entity Framework Core (EF Core) kullanarak veritabanı işlemlerini yönetmek için kullanılır.
+
+ViewImport dosyasi: ASP.NET Core MVC uygulamalarında  tüm Razor görünümleri (views) için ortak using direktiflerini ve diğer yapılandırmaları içerir. Bu şekilde, her Razor görünüm dosyasına bu direktifleri eklemek zorunda kalmadan gerekli namespace'ler ve tag helper'lar kullanılabilir.
+
+
 
