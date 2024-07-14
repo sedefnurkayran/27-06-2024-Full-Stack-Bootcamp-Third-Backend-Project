@@ -29,6 +29,10 @@ dotnet tool install --global dotnet-ef --version 7.0.8  //buradaki -g globale ka
 
 Migration olusturmak icin; dotnet ef migrations add MigrationName
 
+public DataContext(DbContextOptions<DataContext> options) : base(options) { } 
+Bu kod, DataContext sınıfının bir constructor'ını tanımlar ve Entity Framework Core (EF Core) kullanarak veritabanı işlemlerini yönetmek için kullanılır.
+
+ViewImport dosyasi: ASP.NET Core MVC uygulamalarında  tüm Razor görünümleri (views) için ortak using direktiflerini ve diğer yapılandırmaları içerir. Bu şekilde, her Razor görünüm dosyasına bu direktifleri eklemek zorunda kalmadan gerekli namespace'ler ve tag helper'lar kullanılabilir.
 
 
 
