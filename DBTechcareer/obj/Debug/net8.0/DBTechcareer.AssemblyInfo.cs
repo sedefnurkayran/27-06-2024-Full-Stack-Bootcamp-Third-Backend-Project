@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DBTechcareer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eba071613502c7c9501aafca7f62772177042955")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+95159d84607505ce250643ac1c72accdd5519f29")]
 [assembly: System.Reflection.AssemblyProductAttribute("DBTechcareer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DBTechcareer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
