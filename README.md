@@ -13,7 +13,7 @@ CodeFirst: Entity classlarimizla is yapmamiz.
 1)Projeyi olustur
 2)SqlLite kur.
 3) Design Paketi kur.
-4)Modelleri olustur.
+4)Data klasorü ac. Modelleri olustur. (Modelleri Model klasörünün icine de olusturabilirim)
 5)DbContext i olustur.
 6)Program.cs te build edilmeden onceye connection string tanimla.
 7)
