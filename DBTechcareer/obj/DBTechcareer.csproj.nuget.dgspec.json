@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sedef\\source\\repos\\27-06-2024-Full-Stack-Bootcamp-Third-Backend-Project-\\DBTechcareer\\DBTechcareer.csproj": {}
+    "C:\\Users\\Sedef\\source\\repos\\27-06-2024-Full-Stack-Bootcamp-Third-Backend-Project\\DBTechcareer\\DBTechcareer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sedef\\source\\repos\\27-06-2024-Full-Stack-Bootcamp-Third-Backend-Project-\\DBTechcareer\\DBTechcareer.csproj": {
+    "C:\\Users\\Sedef\\source\\repos\\27-06-2024-Full-Stack-Bootcamp-Third-Backend-Project\\DBTechcareer\\DBTechcareer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sedef\\source\\repos\\27-06-2024-Full-Stack-Bootcamp-Third-Backend-Project-\\DBTechcareer\\DBTechcareer.csproj",
+        "projectUniqueName": "C:\\Users\\Sedef\\source\\repos\\27-06-2024-Full-Stack-Bootcamp-Third-Backend-Project\\DBTechcareer\\DBTechcareer.csproj",
         "projectName": "DBTechcareer",
-        "projectPath": "C:\\Users\\Sedef\\source\\repos\\27-06-2024-Full-Stack-Bootcamp-Third-Backend-Project-\\DBTechcareer\\DBTechcareer.csproj",
+        "projectPath": "C:\\Users\\Sedef\\source\\repos\\27-06-2024-Full-Stack-Bootcamp-Third-Backend-Project\\DBTechcareer\\DBTechcareer.csproj",
         "packagesPath": "C:\\Users\\Sedef\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sedef\\source\\repos\\27-06-2024-Full-Stack-Bootcamp-Third-Backend-Project-\\DBTechcareer\\obj\\",
+        "outputPath": "C:\\Users\\Sedef\\source\\repos\\27-06-2024-Full-Stack-Bootcamp-Third-Backend-Project\\DBTechcareer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Sedef\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,6 +45,18 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.0-preview.6.24327.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
