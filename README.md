@@ -27,7 +27,8 @@ Migration: Veritabani semasini olusturur.
 dotnet tool list 
 dotnet tool install --global dotnet-ef --version 7.0.8  //buradaki -g globale kaydet demek.
 
-Migration olusturmak icin; dotnet ef migrations add MigrationName
+Migration olusturmak icin; dotnet ef migrations add MigrationName --DB semasini olusturdu.
+DB ye yansitmak icin: dotnet ef database update
 
 public DataContext(DbContextOptions<DataContext> options) : base(options) { } 
 Bu kod, DataContext sınıfının bir constructor'ını tanımlar ve Entity Framework Core (EF Core) kullanarak veritabanı işlemlerini yönetmek için kullanılır.
